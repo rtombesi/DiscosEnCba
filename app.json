@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "discos-cba",
+    "slug": "discos-cba",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.rubentombesi.discoscba",
+      "permissions": [
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "description": "Version 2 de desarrollo actualizada al 04/07/2021 23:29hs "
+  }
+}
