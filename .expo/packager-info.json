@@ -1,10 +1,10 @@
 {
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerNgrokUrl": "https://sb-t5p.rtombesi.proyecto-discos-cba.exp.direct",
+  "packagerNgrokUrl": "https://packager.sb-t5p.rtombesi.proyecto-discos-cba.exp.direct",
+  "ngrokPid": 7792,
   "expoServerPort": 19000,
   "packagerPort": 19000,
   "packagerPid": null,
-  "webpackServerPort": null,
+  "webpackServerPort": 19006,
   "devToolsPort": 19002
 }

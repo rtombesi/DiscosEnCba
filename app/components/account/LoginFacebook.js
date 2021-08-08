@@ -28,7 +28,7 @@ export default function LoginFacebook(props) {
           setloading(false);
           navigation.navigate("account");
         })
-        .catch(() => {
+        .catch((err) => {
           setloading(false);
           toastRef.current.show("Credenciales incorrectas");
         });

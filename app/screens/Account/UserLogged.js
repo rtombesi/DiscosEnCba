@@ -32,13 +32,11 @@ export default function UserLogged() {
           setloadingText={setloadingText}
         />
       )}
-
       <AccountOptions
         userInfo={userInfo}
         toastRef={toastRef}
         setReloadUserInfo={setReloadUserInfo}
       />
-
       <Button
         title="Cerrar Sesión"
         buttonStyle={styles.btnCloseSesion}
